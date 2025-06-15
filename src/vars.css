@@ -1,0 +1,13 @@
+/*
+variables define properties such as fonts, colors, etc.
+easy to import, easy to reuse throughout project
+*/
+:root {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152b;
+
+  --font-roboto: "Roboto";
+}

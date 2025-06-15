@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Countdown Timer",
+    "imageSrc": "projects/timerImage.png",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://md2327.github.io/Countdown-Timer/",
+    "source": "https://github.com/md2327/Countdown-Timer"
+  },
+  {
+    "title": "Weather Application",
+    "imageSrc": "projects/weatherImage.png",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://md2327.github.io/Weather-Application/",
+    "source": "https://github.com/md2327/Weather-Application"
+  },
+  {
+    "title": "Mini Chatbot",
+    "imageSrc": "projects/chatbotImage.png",
+    "skills": ["Python", "PyTorch"],
+    "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/",
+    "source": "https://github.com/md2327/Mini-Chatbot"
+  }
+]
