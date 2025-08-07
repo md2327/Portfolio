@@ -1,15 +1,17 @@
 @import "../../vars.css";
 
+/* container for intro section */
 .container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
-  z-index: 1;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  z-index: 1;
 }
+/* intro content */
 .content {
   display: flex;
   flex-direction: column;
@@ -17,21 +19,36 @@
   color: var(--color-text);
   z-index: 1;
 }
+/* name title */
 .title {
-  font-size: 30px;
+  font-size: 4rem;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 3%;
   font-family: var(--color-text);
 }
+/* cs undergrad */
 .description {
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--font-roboto);
-  margin-right: 170px;
-  margin-bottom: 52px;
+  margin-right: 25%;
+  margin-bottom: 5%;
 }
+/* color flow animation */
+.colorFlow {
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes colorFlow {
+  0% {
+    color: rgba(random(365), 60, 60, 1);
+  }
+}
+/* profile pic */
 .headshotImg {
   border-radius: 100%;
-  width: 43%;
+  width: 40%;
   z-index: 1;
 
   animation-name: float;
@@ -39,6 +56,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+/* pfp animation */
 @keyframes float {
   0% {
     transform: translate(0, 0px);
@@ -50,37 +68,42 @@
     transform: translate(0, -0px);
   }
 }
+/* pfp blur effect */
 .imgBlur {
   position: absolute;
   width: 50%;
-  height: 38vw;
-  min-width: 350px;
-  top: -10px;
-  left: 42vw;
-  border-radius: 50%;
-  background: rgba(15, 49, 112, 0.7);
+  height: 120%;
+  top: -8%;
+  left: 55%;
+  border-radius: 100%;
+  background: var(--color-tertiary);
   filter: blur(90px);
-  z-index: 0;
 }
+/* small screen */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
   }
   .title {
-    padding-top: 50px;
+    padding-top: 10%;
     align-items: center;
     text-align: center;
+    font-size: 35px;
   }
   .description {
     margin-left: 30%;
     text-align: center;
     width: 100%;
+    font-size: 20px;
   }
   .content {
     align-items: center;
   }
   .imgBlur {
-    left: 15vw;
+    top: -4%;
+    width: 60%;
+    height: 60%;
+    left: 20%;
   }
   .headshotImg {
     width: 50%;

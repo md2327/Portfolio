@@ -4,29 +4,22 @@
   padding: 0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
-html {
+html,
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-/* Remove or comment out the old .type-cursor rule */
-.type-cursor {
-  display: none;
-}
-/* Add this for the real Typed.js cursor */
+/* type animation on intro */
 .typed-cursor {
   display: inline-block;
-  width: 2px; /* Thin vertical bar */
+  width: 2px;
   height: 1em;
-  background: var(
-    --color-primary,
-    #fff
-  ); /* Use your theme color or fallback to white */
+  background: var(--color-primary, #fff);
   margin-left: 2px;
   vertical-align: bottom;
   animation: blink 0.7s steps(1) infinite;
-  color: transparent; /* Hide the | character */
   border-radius: 1px;
 }
-
 @keyframes blink {
   0%,
   50% {

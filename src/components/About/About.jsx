@@ -18,8 +18,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3> Get to Know Me </h3>
               <p>
-                I am based in South Mississippi and enjoy working with HTML,
-                CSS, Javascript, and React the most.
+                I am based in the South and enjoy working with HTML, CSS,
+                Javascript, and React the most.
               </p>
 
               <p>

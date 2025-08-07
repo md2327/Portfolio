@@ -12,7 +12,23 @@
     "imageSrc": "skills/javascript.png"
   },
   {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
     "title": "C++",
     "imageSrc": "skills/c++.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   }
 ]

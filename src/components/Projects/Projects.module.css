@@ -1,18 +1,21 @@
 @import "../../vars.css";
 
+/* container for projects section */
 .container {
   margin-top: 76px;
   margin-left: 10%;
   margin-right: 10%;
   color: var(--color-text);
 }
+/* projects title */
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
+/* general projects container */
 .projects {
   display: flex;
   margin-top: 37px;

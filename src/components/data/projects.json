@@ -1,8 +1,17 @@
 [
   {
+    "title": "Parsement",
+    "imageSrc": "projects/parsementImage.png",
+    "skills": ["HTML", "CSS", "React", "Express"],
+    "description": "Resume scanner application compares file upload to job description to return parsed data and accuracy percentage.",
+    "demo": "https://parsement.onrender.com/",
+    "source": "https://github.com/md2327/parsement-frontend"
+  },
+  {
     "title": "Countdown Timer",
     "imageSrc": "projects/timerImage.png",
     "skills": ["HTML", "CSS", "JavaScript"],
+    "description": "Web application that updates countdown based on input of hours, minutes, and seconds.",
     "demo": "https://md2327.github.io/Countdown-Timer/",
     "source": "https://github.com/md2327/Countdown-Timer"
   },
@@ -10,14 +19,16 @@
     "title": "Weather Application",
     "imageSrc": "projects/weatherImage.png",
     "skills": ["HTML", "CSS", "JavaScript"],
+    "description": "Web application implements OpenWeather API to display weather details based on input of location.",
     "demo": "https://md2327.github.io/Weather-Application/",
     "source": "https://github.com/md2327/Weather-Application"
   },
   {
-    "title": "Mini Chatbot",
+    "title": "Let's Talk",
     "imageSrc": "projects/chatbotImage.png",
     "skills": ["Python", "PyTorch"],
+    "description": "Artificial intelligence bot utilizes Hugging Face DialoGPT model and Streamlit to generate realistic responses.",
     "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/",
-    "source": "https://github.com/md2327/Mini-Chatbot"
+    "source": "https://github.com/md2327/Lets-Talk"
   }
 ]

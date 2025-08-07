@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+/* container for nav bar section */
 .navbar {
   position: relative;
   display: flex;
@@ -9,12 +10,14 @@
   z-index: 2;
   margin: 0 10%;
 }
+/* portfolio title */
 .title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
+/* menu bar */
 .menu {
   display: flex;
 }
@@ -26,12 +29,13 @@
   gap: 47px; /* horizontal list */
   list-style: none; /* removes bullets */
 }
+/* individual menu item */
 .menuItem a {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
 }
-
+/* small screen */
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
@@ -58,8 +62,8 @@
     border-radius: 10px;
     background: linear-gradient(
       0deg,
-      rgba(52, 77, 218, 0.322) 0%,
-      rgb(3, 26, 68) 100%
+      var(--color-tertiary) 30%,
+      rgb(3, 26, 68) 60%
     );
     padding: 0 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -69,6 +73,7 @@
     transform: translateY(-10px);
     transition: all 0.4s ease;
   }
+  /* menu opening effect */
   .menuOpen {
     max-height: 500px;
     transform: translateY(0);

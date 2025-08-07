@@ -1,0 +1,33 @@
+@import "../../vars.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-text);
+    border-radius: 5px;
+  }
+/* container for experience cards */
+.container {
+  width: 50%;
+  padding: 2%;
+  margin-left: 50%;
+  text-align: center;
+  align-items: center;
+  background-color: var(--color-tertiary);
+}
+.position {
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 3%;
+}
+.details {
+  font-size: 14px;
+}
+/* small screen view */
+@media screen and (max-width: 830px) {
+  .container {
+    width: 60%;
+    margin-left: 40%;
+  }
+}

@@ -30,7 +30,7 @@ export const Contact = () => {
       <h2 className={styles.title}>Contact</h2>
       <div className={styles.content}>
         <div className={styles.left}>
-          <p className={styles.description}>Feel Free to Reach Out to Me!</p>
+          <p className={styles.description}>Let's keep in touch.</p>
           <ul className={styles.links}>
             <li className={styles.link}>
               <a

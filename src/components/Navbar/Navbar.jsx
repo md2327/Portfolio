@@ -28,6 +28,9 @@ export const Navbar = () => {
             <a href="#about"> About </a>
           </li>
           <li className={styles.menuItem}>
+            <a href="#experiences"> Experiences </a>
+          </li>
+          <li className={styles.menuItem}>
             <a href="#skills"> Skills </a>
           </li>
           <li className={styles.menuItem}>
