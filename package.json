@@ -15,6 +15,7 @@
     "@fontsource/roboto": "^5.2.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-text-gradients": "^1.0.2",
     "react-type-animation": "^3.2.0",
     "react-typed": "^2.0.12"
   },

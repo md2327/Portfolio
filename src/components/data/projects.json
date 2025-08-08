@@ -2,7 +2,7 @@
   {
     "title": "Parsement",
     "imageSrc": "projects/parsementImage.png",
-    "skills": ["HTML", "CSS", "React", "Express"],
+    "skills": ["HTML", "CSS", "JavaScript", "React + Vite", "Express"],
     "description": "Resume scanner application compares file upload to job description to return parsed data and accuracy percentage.",
     "demo": "https://parsement.onrender.com/",
     "source": "https://github.com/md2327/parsement-frontend"

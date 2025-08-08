@@ -43,20 +43,22 @@ export const Skills = () => {
                 position: "absolute",
                 left: "50%",
                 top: "50%",
-                transformOrigin: "center"
+                transformOrigin: "center",
               };
 
               return (
                 <div
                   key={idx}
-                  className={`${styles.skill} ${
+                  className={`${styles.skillContent} ${
                     isActive ? style.active : isAdjacent ? styles.adjacent : ""
                   }`}
                   style={style}
                 >
-                  <div className={styles.skillImageContainer}>
-                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                  </div>
+                  <img
+                    src={getImageUrl(skill.imageSrc)}
+                    alt={skill.title}
+                    className={styles.image}
+                  />
                   <p>{skill.title}</p>
                 </div>
               );

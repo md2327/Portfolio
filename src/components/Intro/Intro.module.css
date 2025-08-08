@@ -35,15 +35,7 @@
 }
 /* color flow animation */
 .colorFlow {
-  animation-duration: 50s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-}
-@keyframes colorFlow {
-  0% {
-    color: rgba(random(365), 60, 60, 1);
-  }
+  font-style: bold;
 }
 /* profile pic */
 .headshotImg {
@@ -71,12 +63,12 @@
 /* pfp blur effect */
 .imgBlur {
   position: absolute;
-  width: 50%;
-  height: 120%;
-  top: -8%;
-  left: 55%;
+  width: 40%;
+  height: 90%;
+  top: -5%;
+  left: 60%;
   border-radius: 100%;
-  background: var(--color-tertiary);
+  background: linear-gradient(#17acff, #ff68f0);
   filter: blur(90px);
 }
 /* small screen */
@@ -100,10 +92,10 @@
     align-items: center;
   }
   .imgBlur {
-    top: -4%;
-    width: 60%;
-    height: 60%;
-    left: 20%;
+    top: -1%;
+    width: 50%;
+    height: 50%;
+    left: 25%;
   }
   .headshotImg {
     width: 50%;
