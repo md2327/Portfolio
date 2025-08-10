@@ -18,14 +18,16 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3> Get to Know Me </h3>
               <p>
-                I am based in the South and enjoy working with HTML, CSS,
-                Javascript, and React the most.
+                I am currently pursuing a B.S in Computer Science with a Minor
+                in Mathematics. Outside of the tech world, I enjoy spending time
+                with my family, playing video games, and trying out new
+                restaurants.
               </p>
 
               <p>
                 While I am actively building skills in web development, I remain
                 open to opportunities that will allow me to expand my knowledge
-                in machine learning and software development.
+                in software development and machine learning/ai engineering.
               </p>
 
               <p>

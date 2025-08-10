@@ -7,5 +7,5 @@ easy to import, easy to reuse throughout project
   --color-primary: rgba(68, 90, 161, 0.322);
   --color-secondary: #576cbc;
   --color-tertiary: rgba(49, 83, 194, 0.322);
-  --font-roboto: "Roboto";
+  --accent-color: rgba(74, 144, 226, 0.5);
 }

@@ -16,14 +16,6 @@
     "source": "https://github.com/md2327/Countdown-Timer"
   },
   {
-    "title": "Weather Application",
-    "imageSrc": "projects/weatherImage.png",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "description": "Web application implements OpenWeather API to display weather details based on input of location.",
-    "demo": "https://md2327.github.io/Weather-Application/",
-    "source": "https://github.com/md2327/Weather-Application"
-  },
-  {
     "title": "Let's Talk",
     "imageSrc": "projects/chatbotImage.png",
     "skills": ["Python", "PyTorch"],

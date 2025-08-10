@@ -14,7 +14,7 @@ body {
   display: inline-block;
   width: 2px;
   height: 1em;
-  background: var(--color-primary, #fff);
+  background: var(--color-text);
   margin-left: 2px;
   vertical-align: bottom;
   animation: blink 0.7s steps(1) infinite;

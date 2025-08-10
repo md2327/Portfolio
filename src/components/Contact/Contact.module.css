@@ -136,13 +136,14 @@ form textarea {
   display: inline-flex;
   border-radius: 10px;
   border: 0;
-  background: #425083c5;
+  background: #2c2b4dc5;
   color: var(--color-text);
   padding: 10px 25px;
   font-size: 18px;
 }
 .closeBtn:hover {
-  background: rgba(68, 90, 161, 0.322);
+  cursor: pointer;
+  background: #1e1d66c5;
 }
 /* small screen */
 @media screen and (max-width: 830px) {

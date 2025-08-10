@@ -21,21 +21,18 @@
 }
 /* name title */
 .title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
   margin-bottom: 3%;
   font-family: var(--color-text);
 }
-/* cs undergrad */
+/* includes color flow animation */
 .description {
-  font-size: 25px;
-  font-family: var(--font-roboto);
+  font-size: 35px;
+  font-weight: 700;
   margin-right: 25%;
   margin-bottom: 5%;
-}
-/* color flow animation */
-.colorFlow {
-  font-style: bold;
+  width: 100%;
 }
 /* profile pic */
 .headshotImg {
@@ -64,8 +61,8 @@
 .imgBlur {
   position: absolute;
   width: 40%;
-  height: 90%;
-  top: -5%;
+  height: 70%;
+  top: 7%;
   left: 60%;
   border-radius: 100%;
   background: linear-gradient(#17acff, #ff68f0);
@@ -80,13 +77,13 @@
     padding-top: 10%;
     align-items: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
   }
   .description {
     margin-left: 30%;
     text-align: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
   }
   .content {
     align-items: center;
