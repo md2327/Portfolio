@@ -1,26 +1,23 @@
 [
   {
     "title": "Parsement",
-    "imageSrc": "projects/parsementImage.png",
-    "skills": ["HTML", "CSS", "JavaScript", "React + Vite", "Express"],
-    "description": "Resume scanner application compares file upload to job description to return parsed data and accuracy percentage.",
-    "demo": "https://parsement.onrender.com/",
-    "source": "https://github.com/md2327/parsement-frontend"
+    "imageSrc": "projects/parseImage.png",
+    "skills": ["HTML/CSS", "JavaScript", "React", "Express"],
+    "description": "Resume Scanner",
+    "demo": "https://parsement.onrender.com/"
   },
   {
-    "title": "Countdown Timer",
-    "imageSrc": "projects/timerImage.png",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "description": "Web application that updates countdown based on input of hours, minutes, and seconds.",
-    "demo": "https://md2327.github.io/Countdown-Timer/",
-    "source": "https://github.com/md2327/Countdown-Timer"
+    "title": "Time's Up",
+    "imageSrc": "projects/CL.png",
+    "skills": ["HTML/CSS", "JavaScript"],
+    "description": "Countdown Timer",
+    "demo": "https://md2327.github.io/Countdown-Timer/"
   },
   {
     "title": "Let's Talk",
     "imageSrc": "projects/chatbotImage.png",
     "skills": ["Python", "PyTorch"],
-    "description": "Artificial intelligence bot utilizes Hugging Face DialoGPT model and Streamlit to generate realistic responses.",
-    "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/",
-    "source": "https://github.com/md2327/Lets-Talk"
+    "description": "AI Chatbot",
+    "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/"
   }
 ]
