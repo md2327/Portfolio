@@ -31,8 +31,22 @@ export const Skills = () => {
     <section className={styles.container} id="skills">
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.buttons}>
-        <button className={`${styles.languagesBtn} ${isActive === 'languages' ? styles.active : 'background: #fff, color: #000'}`} onClick={handleLanguagesBtn}>Programming Languages</button>
-        <button className={`${styles.toolsBtn} ${isActive === 'tools' ? styles.active : 'background: #fff, color: #000'}`} onClick={handleToolsBtn}>Frameworks & Tools</button>
+        <button
+          className={styles.languagesBtn}
+          style={{
+            backgroundColor: isActive === "languages" ? "#fff" : "#000",
+            color: isActive === "languages" ? "#000" : "#fff",
+          }}
+          onClick={handleLanguagesBtn}
+          >Programming Languages</button>
+        <button
+          className={styles.toolsBtn}
+          style={{
+            backgroundColor: isActive === "tools" ? "#fff" : "#000",
+            color: isActive === "tools" ? "#000" : "#fff",
+          }}
+          onClick={handleToolsBtn}
+          >Frameworks & Tools</button>
       </div>
       <div className={styles.content}>
         <div className={styles.skillsCarousel}>
