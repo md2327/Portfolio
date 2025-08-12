@@ -73,7 +73,6 @@ export const Contact = () => {
           </button>
         </form>
       </div>
-
       {showPopup && (
         <div className={styles.popupContainer}>
           <div className={styles.popupContent}>

@@ -8,10 +8,10 @@
   },
   {
     "title": "Time's Up",
-    "imageSrc": "projects/CL.png",
+    "imageSrc": "projects/timerImage.png",
     "skills": ["HTML/CSS", "JavaScript"],
     "description": "Countdown Timer",
-    "demo": "https://md2327.github.io/Countdown-Timer/"
+    "demo": "https://md2327.github.io/Times-Up/"
   },
   {
     "title": "Let's Talk",

@@ -1,0 +1,15 @@
+[
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "skills/git.png"
+    },
+    {
+      "title": "Render",
+      "imageSrc": "skills/render.png"
+    }
+  ]
+  

@@ -1,27 +1,43 @@
 import { useState, useEffect } from "react";
 import styles from "./Skills.module.css";
-import skills from "../data/skills.json";
+import skillsLanguages from "../data/skillsLanguages.json";
+import skillsTools from "../data/skillsTools.json";
 import { getImageUrl } from "../../utils";
 
 export const Skills = () => {
   const [carouselIdx, setCarouselIdx] = useState(0); // start with first item
-  const total = skills.length;
+  const [currentSkills, setCurrentSkills] = useState(skillsLanguages); // default setting
+  const [isActive, setIsActive] = useState('languages');
 
-  // loops skill bubbles without clicks
+  const handleLanguagesBtn = () => {
+    setCurrentSkills(skillsLanguages); // toggles on
+    setIsActive('languages');
+  }
+  const handleToolsBtn = () => {
+    setCurrentSkills(skillsTools); // toggles on
+    setIsActive('tools');
+  }
+
+  // infinite carousal effect
+  const total = currentSkills.length;
   useEffect(() => {
     const interval = setInterval(() => {
       setCarouselIdx((prev) => (prev + 1) % total);
-    }, 2000);
+    }, 1000);
     return () => clearInterval(interval);
   }, [total]);
 
   return (
     <section className={styles.container} id="skills">
       <h2 className={styles.title}>Skills</h2>
+      <div className={styles.buttons}>
+        <button className={`${styles.languagesBtn} ${isActive === 'languages' ? styles.active : 'background: #fff, color: #000'}`} onClick={handleLanguagesBtn}>Programming Languages</button>
+        <button className={`${styles.toolsBtn} ${isActive === 'tools' ? styles.active : 'background: #fff, color: #000'}`} onClick={handleToolsBtn}>Frameworks & Tools</button>
+      </div>
       <div className={styles.content}>
         <div className={styles.skillsCarousel}>
           <div className={styles.skills}>
-            {skills.map((skill, idx) => {
+            {currentSkills.map((skill, idx) => {
               let offset = (idx - carouselIdx + total) % total; // set offset relative to idx
               if (offset > total / 2) offset -= total;
 
@@ -43,7 +59,7 @@ export const Skills = () => {
                 position: "absolute",
                 left: "50%",
                 top: "50%",
-                transformOrigin: "center",
+                transformOrigin: "center"
               };
 
               return (
@@ -54,11 +70,9 @@ export const Skills = () => {
                   }`}
                   style={style}
                 >
-                  <img
-                    src={getImageUrl(skill.imageSrc)}
-                    alt={skill.title}
-                    className={styles.image}
-                  />
+                  <div className={styles.imageContainer}>
+                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} className={styles.image}/>
+                  </div>
                   <p>{skill.title}</p>
                 </div>
               );

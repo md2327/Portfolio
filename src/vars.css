@@ -5,7 +5,7 @@ easy to import, easy to reuse throughout project
 :root {
   --color-text: #fff;
   --color-primary: rgba(68, 90, 161, 0.322);
-  --color-secondary: #576cbc;
-  --color-tertiary: rgba(49, 83, 194, 0.322);
+  --color-secondary: #576cbc; /* button color */
+  --color-tertiary: rgba(49, 83, 194, 0.322); /* experiences card color */
   --accent-color: rgba(74, 144, 226, 0.5);
 }

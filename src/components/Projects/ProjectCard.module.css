@@ -85,11 +85,11 @@ body {
   font-weight: bold;
   border-radius: 10px;
   color: var(--color-text);
-  background-color: rgba(68, 68, 138, 0.74);
+  background: var(--color-secondary);
 }
 .demo:hover {
   cursor: pointer;
-  background-color: rgba(64, 64, 105, 0.74);
+  background-color: #37498a;
 }
 /**/
 .title, .description, .skills, .demo {
