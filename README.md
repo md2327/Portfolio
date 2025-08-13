@@ -1,2 +1,17 @@
-The source code for my official portfolio.
-This project utilized HTML, CSS, Javascript, and React.js
+
+# Portfolio
+
+This repository stores the source code for my official portfolio.
+
+
+
+
+## Tech Stack
+
+**Client:** HTML/CSS, JavaScript, React
+
+
+
+## Demo
+
+minadang.dev

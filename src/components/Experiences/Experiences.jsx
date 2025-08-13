@@ -27,7 +27,7 @@ function TimelineBar(props) {
   }, []);
   return (
     <div
-      className={`${styles.timelineBar} ${isVisible ? styles.isVisible : ""}`}
+      className={`${styles.timelineBar} ${isVisible ? styles.fadeInExperiences : ""}`}
       ref={domRef}
     >
       {props.children}
@@ -39,34 +39,31 @@ export const Experiences = () => {
   return (
     <section className={styles.container} id="experiences">
       <h2 className={styles.title}>Experiences</h2>
-
-      <div className={styles.timelineWrapper}>
-        <div className={styles.timelineLine}>
-          <div className={styles.timelineProgress}></div>
-        </div>
-        <div className={styles.timelineSection}>
+      <div className={styles.timelineLine}>
+        <div className={styles.timelineProgress}></div>
+      </div>
           {experiences.map((experience, id) => {
             return (
               <div className={styles.content} key={id}>
-                {/* create elements using experiences.json so no props needed*/}
-                <ExperiencesCard experience={experience} index={id} />
-                <div className={styles.timelineMarker}></div>
-                <div className={styles.leftContent}>
-                  <img
-                    className={styles.image}
-                    src={getImageUrl(experience.imageSrc)}
-                    alt={`Image of ${experience.company}`}
-                  />
-                  <div className={styles.sideInfo}>
-                    <h3 className={styles.location}>{experience.location}</h3>
-                    <p className={styles.duration}>{experience.duration}</p>
+                <div className={styles.experiencesWrapper}>
+                  <div className={styles.leftContent}>
+                    <img
+                      className={styles.image}
+                      src={getImageUrl(experience.imageSrc)}
+                      alt={`Image of ${experience.company}`}
+                    />
+                    <div className={styles.sideInfo}>
+                      <h3>{experience.location}</h3>
+                      <p>{experience.duration}</p>
+                    </div>
                   </div>
+                  <ExperiencesCard experience={experience} index={id} />
+                  {/* create elements using experiences.json so no props needed*/}    
                 </div>
+                <div className={styles.timelineMarker}></div>
               </div>
             );
           })}
-        </div>
-      </div>
     </section>
   );
 };

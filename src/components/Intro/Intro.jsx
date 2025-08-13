@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Intro.module.css";
 import { getImageUrl } from "../../utils";
-import { TypeAnimation } from "react-type-animation";
+import { ReactTyped } from "react-typed";
 import { LinearGradient } from "react-text-gradients";
 
 export const Intro = () => {
@@ -12,17 +12,15 @@ export const Intro = () => {
         <div className={styles.description}>
           <span>&lt;&nbsp;</span>
           <LinearGradient gradient={["to left", "#17acff, #ff68f0"]}>
-            <TypeAnimation
+            <ReactTyped
               className={styles.colorFlow}
-              sequence={[
-                "Frontend Development",
-                1000,
-                "Software Engineering",
-                1000,
-                "AI Engineering",
-                1000,
-              ]}
-              repeat={Infinity}
+              strings={[                
+                "Frontend Development", 
+                "Software Engineering", 
+                "AI Engineering"]} 
+                typeSpeed={40} 
+                backSpeed={40}
+                loop
             />
           </LinearGradient>
           <span>&nbsp;/&gt;</span>

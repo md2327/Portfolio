@@ -12,11 +12,10 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fontsource/outfit": "^5.2.5",
-    "@fontsource/roboto": "^5.2.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-text-gradients": "^1.0.2",
-    "react-type-animation": "^3.2.0"
+    "react-typed": "^2.0.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
