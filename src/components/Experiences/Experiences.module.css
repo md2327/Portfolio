@@ -10,7 +10,7 @@
   position: relative;
   border-radius: 10px;
   padding-bottom: 10%;
-  margin: 129px 130px;
+  margin: 129px 10%;
   color: var(--color-text);
   background-color: rgba(12, 12, 12, 0.6);
   overflow: hidden;
@@ -141,7 +141,7 @@
 /* small screen */
 @media screen and (max-width: 830px) {
     .container {
-      margin: 10px;
+      margin: 20px 5%;
       background-color: transparent;
     }
     .title {

@@ -68,6 +68,7 @@
 /* small screen */
 @media screen and (max-width: 830px) {
   .container {
+    margin: 20px 5%;
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
