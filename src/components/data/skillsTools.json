@@ -1,15 +1,30 @@
 [
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Git",
-      "imageSrc": "skills/git.png"
-    },
-    {
-      "title": "Render",
-      "imageSrc": "skills/render.png"
-    }
-  ]
-  
+  {
+    "title": "React.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/next.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Render",
+    "imageSrc": "skills/render.png"
+  },
+  {
+    "title": "Colab",
+    "imageSrc": "skills/colab.png"
+  },
+  {
+    "title": "Jupyter",
+    "imageSrc": "skills/jupyter.png"
+  },
+  {
+    "title": "VSCode",
+    "imageSrc": "skills/vscode.png"
+  }
+]

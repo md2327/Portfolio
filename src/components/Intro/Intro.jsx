@@ -14,13 +14,15 @@ export const Intro = () => {
           <LinearGradient gradient={["to left", "#17acff, #ff68f0"]}>
             <ReactTyped
               className={styles.colorFlow}
-              strings={[                
-                "Frontend Development", 
-                "Software Engineering", 
-                "AI Engineering"]} 
-                typeSpeed={40} 
-                backSpeed={40}
-                loop
+              strings={[
+                "Frontend Development",
+                "Software Engineering",
+                "Data Science",
+                "AI Engineering",
+              ]}
+              typeSpeed={40}
+              backSpeed={40}
+              loop
             />
           </LinearGradient>
           <span>&nbsp;/&gt;</span>

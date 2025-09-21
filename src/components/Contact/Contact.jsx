@@ -33,10 +33,7 @@ export const Contact = () => {
           <p className={styles.description}>Let's keep in touch.</p>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <a
-                href="https://www.linkedin.com/in/mina-dang-888758293/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/md2327/" target="_blank">
                 <img
                   src={getImageUrl("contact/linkedinIcon.png")}
                   alt="LinkedIn"
@@ -44,10 +41,7 @@ export const Contact = () => {
               </a>
             </li>
             <li className={styles.link}>
-              <a
-                href="https://github.com/md2327?tab=overview&from=2025-06-01&to=2025-06-02"
-                target="_blank"
-              >
+              <a href="https://github.com/md2327/" target="_blank">
                 <img src={getImageUrl("contact/githubIcon.png")} alt="GitHub" />
               </a>
             </li>

@@ -8,34 +8,28 @@ body {
 }
 /* project card container */
 .container {
+  display: flex;
   position: relative;
   width: 100%;
   max-width: 300px;
   max-height: 700px;
-  border-radius: 7px;
+  border-radius: 10px;
   text-align: center;
   transition: 0.3s;
   overflow: hidden;
   margin: 2%;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 3 / 4;
+  flex-direction: column;
+  align-items: center;
 }
 .container:hover {
   box-shadow: 0px 5px 10px rgba(23, 172, 255, 0.3);
   transform: scale(1.1);
 }
-/* image container */
-.image {
-  display: flex;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 3 / 4;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-}
-/**/
-.image::after {
+.container::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -74,8 +68,8 @@ body {
   font-size: 14px;
   color: #000;
 }
-/* demo button */
-.demo {
+/* source button */
+.source {
   display: inline-block;
   justify-content: center;
   text-decoration: none;
@@ -84,15 +78,18 @@ body {
   font-size: 16px;
   font-weight: bold;
   border-radius: 7px;
+  border: none;
   color: var(--color-text);
   background: var(--color-secondary);
 }
-.demo:hover {
+.source:hover {
   cursor: pointer;
   background-color: #37498a;
 }
-/**/
-.title, .description, .skills, .demo {
+.title,
+.description,
+.skills,
+.source {
   position: relative;
   z-index: 2; /* overlay set to be above white effect */
 }

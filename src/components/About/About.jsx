@@ -20,14 +20,13 @@ export const About = () => {
               <p>
                 I am currently pursuing a B.S in Computer Science with a Minor
                 in Mathematics. Outside of the tech world, I enjoy spending time
-                with my family, playing video games, and trying out new
-                restaurants.
+                with my family, discovering new shows, and playing the piano.
               </p>
 
               <p>
-                While I am actively building skills in web development, I remain
+                While I am actively building skills in Web Development, I remain
                 open to opportunities that will allow me to expand my knowledge
-                in software development and machine learning/ai engineering.
+                in Software Development, Data Science, and AI Engineering.
               </p>
 
               <p>

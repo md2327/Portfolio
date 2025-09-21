@@ -4,20 +4,23 @@
     "imageSrc": "projects/parseImage.png",
     "skills": ["HTML/CSS", "JavaScript", "React", "Express"],
     "description": "Resume Scanner",
-    "demo": "https://parsement.onrender.com/"
+    "demo": "https://parsement.onrender.com/",
+    "source": "https://github.com/md2327/Parsement-Frontend"
   },
   {
     "title": "Time's Up",
     "imageSrc": "projects/timerImage.png",
     "skills": ["HTML/CSS", "JavaScript"],
     "description": "Countdown Timer",
-    "demo": "https://md2327.github.io/Times-Up/"
+    "demo": "https://md2327.github.io/Times-Up/",
+    "source": "https://github.com/md2327/Times-Up"
   },
   {
     "title": "Let's Talk",
     "imageSrc": "projects/chatbotImage.png",
     "skills": ["Python", "PyTorch"],
     "description": "AI Chatbot",
-    "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/"
+    "demo": "https://mini-chatbot-l2ymhj2chcl3jfamnix2bc.streamlit.app/",
+    "source": "https://github.com/md2327/Lets-Talk"
   }
 ]

@@ -3,16 +3,24 @@
     "company": "University of South Alabama, School of Computing",
     "position": "LLM XAI Undergraduate Researcher",
     "imageSrc": "experiences/usa.png",
-    "location": "Remote",
+    "location": "Mobile, AL",
     "duration": "May 2025 - Present",
     "details": "Collaborate with a multidisciplinary team of 6 on a project focused on generating growing self-organizing maps and prompt engineering select large language models for interpretation and evaluation against human analysis.\nUtilize Python, Google Colab, and OpenAI's GPT models to construct and run test scripts that extracts and analyzes information from 100+ datasets.\nAuthored a research paper based on academic findings, scheduled for publication and presentation at an upcoming conference."
   },
   {
     "company": "Extern",
-    "position": "Beats by Dre Data Analytics: Qualitative & Quantitative Insights Extern",
+    "position": "Beats by Dre Data Analytics: Qualitative & Quantitative Insights",
     "imageSrc": "experiences/extern.png",
     "location": "Remote",
-    "duration": "June 2025 - Present",
+    "duration": "June - Sep 2025",
     "details": "Develop advanced data analysis skills by conducting qualitative and quantitative research to uncover customer insights related to Gen Z trends, behaviors, and preferences for audio devices.\nLeverage Python, data science libraries, and natural language processing tools like Gemini AI to perform sentiment analysis and visualize consumer feedback across multiple audio device brands.\nAnticipate synthesizing insights and present findings through a detailed data dashboard and visual presentations for actionable business strategies"
+  },
+  {
+    "company": "Extern",
+    "position": "Outamation: Advanced AI-Powered Document Insights and Data Extraction",
+    "imageSrc": "experiences/extern.png",
+    "location": "Remote",
+    "duration": "Sep 2025 - Present",
+    "details": "Build modular, AI-powered pipelines to process 200+ page mortgage blob files--combining OCR (Tesseract, PaddleOCR), PDF parsing (PyMuPDF), and RAG techniques for intelligent data extraction, classification, and search"
   }
 ]
