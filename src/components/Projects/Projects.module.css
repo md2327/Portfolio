@@ -15,17 +15,77 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
-/* general projects container */
+/* carousel wrapper */
+.carousel {
+  position: relative;
+  margin-top: 37px;
+}
+
+/* general projects container - horizontal carousel */
 .projects {
   display: flex;
-  margin-top: 37px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin: 10%;
+  gap: 35px;
+  height: 100%;
+  width: 83%;
+  overflow-x: auto;
+  padding: 40px 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  /* hide horizontal scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+/* hide scrollbar when hovering the carousel*/
+.projects:hover {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.projects:hover::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+}
+
+/* ensure ProjectCard's internal margin doesn't break carousel spacing */
+.slide > div {
+  margin: 0;
+}
+
+/* arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(12,12,12,0.6);
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  width: 100%;
+  cursor: pointer;
+  z-index: 5;
 }
+.arrow img {
+  width: 20px;
+  height: 20px;
+}
+.arrow.left {
+  left: -70px;
+}
+.arrow.right {
+  right: -70px;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     margin: 20px 5%;

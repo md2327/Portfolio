@@ -20,7 +20,7 @@ export const About = () => {
               <p>
                 I am currently pursuing a B.S in Computer Science with a Minor
                 in Mathematics. Outside of the tech world, I enjoy spending time
-                with my family, discovering new shows, and playing the piano.
+                with my family, going on runs, and playing the piano.
               </p>
 
               <p>

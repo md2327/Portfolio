@@ -36,11 +36,43 @@ function TimelineBar(props) {
 }
 
 export const Experiences = () => {
+  const sectionRef = useRef(null);
+  const progressRef = useRef(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const progressEl = progressRef.current;
+    if (!section || !progressEl) return;
+
+    let ticking = false;
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const rect = section.getBoundingClientRect();
+          const total = window.innerHeight + rect.height;
+          let progress = (window.innerHeight - rect.top) / total;
+          progress = Math.max(0, Math.min(1, progress));
+          progressEl.style.transform = `scaleY(${progress})`;
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, []);
+
   return (
-    <section className={styles.container} id="experiences">
+    <section className={styles.container} id="experiences" ref={sectionRef}>
       <h2 className={styles.title}>Experiences</h2>
       <div className={styles.timelineLine}>
-        <div className={styles.timelineProgress}></div>
+        <div className={styles.timelineProgress} ref={progressRef}></div>
       </div>
           {experiences.map((experience, id) => {
             return (
